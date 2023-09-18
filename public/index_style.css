@@ -1,0 +1,150 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+
+img{
+	cursor: pointer;
+}
+
+.flex-div{
+	display: flex;
+	align-items: center;
+}
+
+nav{
+	padding: 5px 2%;
+	justify-content: space-between;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	background: white;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.nav-left .menu-icon {
+	width: 25px;
+	margin-left: 0;
+}
+
+.nav-left .logo {
+	width: 120px;
+	margin-left: 25px;
+}
+
+.nav-middle .search-box{
+	border: 1px solid #ccc;
+	margin-right: 15px;
+	padding: 8px 12px;
+	border-radius: 25px;
+}
+
+.nav-middle .search-box input{
+	width: 400;
+	border: 0;
+	outline: 0;
+	background: transparent;
+}
+
+.nav-middle img{
+	width: 25px;
+}
+
+.nav-right img{
+	width: 25px;
+	margin-right: 25px;
+}
+
+.nav-right .user-icon {
+	width: 35px;
+	border-radius: 50%;
+	margin-right: 0;
+}
+
+/*------------------sidebar-------------------------*/
+
+.sidebar {
+	background: white;
+	width: 15%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	padding-left: 2%;
+	padding-top: 90px;
+	font-family: sans-serif;
+}
+
+.sidebar hr {
+	border: 0;
+	height: 1px;
+	background: #ccc;
+
+}
+
+.sidebar a img {
+	width: 28px;
+	margin-right: 30px;
+}
+
+.sidebar a {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+	width: fit-content;
+	flex-wrap: wrap;
+	color: black;
+}
+
+.subscribed-channels a img {
+	border-radius: 50%;
+}
+
+/*--------------------main----------------------------*/
+
+.container {
+	padding-left: 19%;
+	padding-right: 2%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.content-header {
+	padding: 5px 5px;
+	justify-content: space-between;
+}
+
+.content-header a {
+	border: 1px solid #ccc;
+	padding: 5px 20px;
+	border-radius: 25px;
+}
+
+.videos-container {
+	justify-content: space-between;
+}
+
+.videos {
+	padding: 5px;
+}
+
+.videos img {
+	width: 370px;
+	height: 200px;
+	padding: 10px 10px;
+	border-radius: 5%;
+}
+
+.uploader img {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.info {
+	border: 1px solid #ccc;
+	padding: 2px 5px;
+	margin: 5px;
+	border-radius: 25px;
+}
